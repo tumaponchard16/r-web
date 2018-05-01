@@ -20,7 +20,7 @@ class Header extends Component {
             <div className="primary-header">
               <div className="container">
                 <span className="pull-left header-contact-details">
-                  <a href="mailto:uudenmaanikkunapalvelu@elisanet.fi​​​​​​​" style={{'text-decoration': 'none'}}><span className="header-email hidden-xs"><span><FA name="envelope" /></span>uudenmaanikkunapalvelu@elisanet.fi​​​​​​​</span></a>
+                  <a href="mailto:uudenmaanikkunapalvelu@elisanet.fi​​​​​​​" style={{'textDecoration': 'none'}}><span className="header-email hidden-xs"><span><FA name="envelope" /></span>uudenmaanikkunapalvelu@elisanet.fi​​​​​​​</span></a>
                   <span className="header-number"> <span><FA name="phone" /></span>+358 44 2936352 </span>
                 </span>
                 <span className="pull-right social-icons">
@@ -57,14 +57,14 @@ class Header extends Component {
                     </MenuItem>
 
                     <MenuItem eventKey={3.3}>
-                      <NavLink to="/oviremontit">Oviremontit</NavLink>
+                      <NavLink to="/oviremontit">oviremontit</NavLink>
                     </MenuItem>
                   </NavDropdown>
                   <NavItem eventKey={1} href="#">
                     <NavLink to="/referenssikohteet" activeClassName="active">referenssikohteet</NavLink>
                   </NavItem>
                   <NavItem eventKey={2} href="#">
-                    <NavLink to="/ottaa" activeClassName="active">ottaa yhteyttä</NavLink>
+                    <NavLink to="/ota-yhteytta" activeClassName="active">ota yhteyttä</NavLink>
                   </NavItem>
                 </Nav>
               </Navbar.Collapse>
@@ -76,7 +76,7 @@ class Header extends Component {
             <Route path="/ikkunaremontti" component={Ikkunaremontti} />
             <Route path="/oviremontit" component={Oviremontit} />
             <Route path="/referenssikohteet" component={Referenssikohteet} />
-            <Route path="/ottaa" component={Ottaa} />
+            <Route path="/ota-yhteytta" component={Ottaa} />
           </div>
         </Router>
       </div>
