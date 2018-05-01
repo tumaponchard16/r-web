@@ -118,19 +118,19 @@ class Home extends Component {
                     <div className="pargcontent">
                         <Col md={4}>
                           <span className="icon-highlights"><FA name="info-circle" size='5x' /></span>
-                          <h3>NOIN</h3>
+                          <h3>PALVELUT</h3>
                           <p>Uusien ikkunoiden ja ulko-ovien suunnittelu, tilaaminen ja asennus hoidetaan helposti valtuutetun PiklasKumppani-verkoston avulla.</p>
                         </Col>
 
                         <Col md={4}>
                           <span className="icon-highlights"><FA name="check-circle" size='5x'/></span>
-                          <h3>VIIMEISET TEOKSET</h3>
+                          <h3>KOHTEET</h3>
                           <p>Kyseisen kohteen myynti, mitoitus (mittavastuu), tilaus käsittely tehtaalle, asennus suunnittelu, asennustyönjohto, asennustyön vastaanottokatselmus​​​​​​​</p>
                         </Col>
 
                         <Col md={4}>
                           <span className="icon-highlights"><FA name="envelope" size='5x'/></span>
-                          <h3>KYSY KYSYMYKSIIN</h3>
+                          <h3>PYYDÄ KÄYMÄÄN</h3>
                           <p>​​​​​​​Pyydä meidät käymään, käyntimme ei maksa sinulle mitään. ​​​​​​​Uskomme, että löydämme Sinulle sopivan ratkaisun!</p>
                         </Col>
                       </div>
