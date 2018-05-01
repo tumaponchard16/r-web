@@ -21,10 +21,10 @@ class Header extends Component {
               <div className="container">
                 <span className="pull-left header-contact-details">
                   <a href="mailto:uudenmaanikkunapalvelu@elisanet.fi​​​​​​​" style={{'textDecoration': 'none'}}><span className="header-email hidden-xs"><span><FA name="envelope" /></span>uudenmaanikkunapalvelu@elisanet.fi​​​​​​​</span></a>
-                  <span className="header-number"> <span><FA name="phone" /></span>+358 44 2936352 </span>
+                  <span className="header-number"> <a href="tel:+358442936352"><span><FA name="phone" /></span>+358 44 2936352</a></span>
                 </span>
                 <span className="pull-right social-icons">
-                  <a href="/"><FA name="facebook" /></a>
+                  <a href="https://facebook.com/uudenmaanikkunapalvelu/" target="_blank"><FA name="facebook" /></a>
                   <a href="/"><FA name="twitter" /></a>
                   <a href="/"><FA name="instagram" /></a>
                   <a href="/"><FA name="youtube" /></a>

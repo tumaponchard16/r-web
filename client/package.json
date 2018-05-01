@@ -2,7 +2,7 @@
   "name": "uudenmaanikkunapalvelu",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3000",
+  "proxy": "http://localhost:81",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.5",
     "axios": "^0.18.0",

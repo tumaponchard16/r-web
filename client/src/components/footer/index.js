@@ -28,8 +28,8 @@ class Footer extends Component {
                       <a href="/"> http://oviremontithelsinki.fi​​​​​​​</a> </p>
                     </div>
 
-                    <p className="impo-details"> - Teemme myyntiedustusta Piklas Oylle eteläisessä Suomessa Piklas y- tunnus 1999174-</p>
-                    <p className="impo-details"> - Uudenmaan ikkunapalvelu   y- tunnus 2902057-4</p>
+                    <p className="impo-details">Teemme myyntiedustusta Piklas Oylle eteläisessä Suomessa Piklas y- tunnus 1999174-</p>
+                    <p className="impo-details">Uudenmaan ikkunapalvelu   y- tunnus 2902057-4</p>
                   </Col>
 
                   <Col md={5}>
@@ -70,11 +70,11 @@ class Footer extends Component {
 
               <Col md={6}>
                 <span className="footer-social-icons">
-                  <FA name="facebook" />
-                  <FA name="twitter" />
-                  <FA name="instagram" />
-                  <FA name="youtube" />
-                  <FA name="linkedin" />
+                  <a href="https://www.facebook.com/uudenmaanikkunapalvelu/" target="_blank"><FA name="facebook" /></a>
+                  <a href="/"><FA name="twitter" /></a>
+                  <a href="/"><FA name="instagram" /></a>
+                  <a href="/"><FA name="youtube" /></a>
+                  <a href="/"><FA name="linkedin" /></a>
                 </span>
               </Col>
             </Row>

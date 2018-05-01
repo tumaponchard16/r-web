@@ -14,20 +14,26 @@ class Home extends Component {
             <Row className="show-grid servimg">
               <Col md={4}>
                 <div className="img-wrapper">
-                  <div className="img-header"><a href="/ikkunaremontti">ikkunaremontti</a></div>
-                  <img src="img/etu5.jpg" alt="img1"/>
+                  <a href="/ikkunaremontti">
+                    <div className="img-header">ikkunaremontti</div>
+                    <img src="img/etu5.jpg" alt="img1"/>
+                  </a>
                 </div>
               </Col>
               <Col md={4}>
                 <div className="img-wrapper">
-                  <div className="img-header"><a href="/asennuspalvelu">asennuspalvelu</a></div>
-                  <img src="img/img_2429.jpg" alt="img_2"/>
+                  <a href="/asennuspalvelu">
+                    <div className="img-header">asennuspalvelu</div>
+                    <img src="img/img_2429.jpg" alt="img_2"/>
+                  </a>
                 </div>
               </Col>
               <Col md={4}>
                 <div className="img-wrapper">
-                  <div className="img-header"><a href="/oviremontit">oviremontit</a></div>
-                  <img src="img/img_2431.jpg" alt="img3"/>
+                  <a href="/oviremontit">
+                    <div className="img-header">oviremontit</div>
+                    <img src="img/img_2431.jpg" alt="img3"/>
+                  </a>
                 </div>
               </Col>
             </Row>
@@ -117,20 +123,26 @@ class Home extends Component {
                   <div className="container">
                     <div className="pargcontent">
                         <Col md={4}>
+                        <a href="/asennuspalvelu">
                           <span className="icon-highlights"><FA name="info-circle" size='5x' /></span>
                           <h3>PALVELUT</h3>
+                        </a>
                           <p>Uusien ikkunoiden ja ulko-ovien suunnittelu, tilaaminen ja asennus hoidetaan helposti valtuutetun PiklasKumppani-verkoston avulla.</p>
                         </Col>
 
                         <Col md={4}>
+                        <a href="/referenssikohteet">
                           <span className="icon-highlights"><FA name="check-circle" size='5x'/></span>
                           <h3>KOHTEET</h3>
+                          </a>
                           <p>Kyseisen kohteen myynti, mitoitus (mittavastuu), tilaus käsittely tehtaalle, asennus suunnittelu, asennustyönjohto, asennustyön vastaanottokatselmus​​​​​​​</p>
                         </Col>
 
                         <Col md={4}>
+                        <a href="/ota-yhteytta">
                           <span className="icon-highlights"><FA name="envelope" size='5x'/></span>
                           <h3>PYYDÄ KÄYMÄÄN</h3>
+                        </a>
                           <p>​​​​​​​Pyydä meidät käymään, käyntimme ei maksa sinulle mitään. ​​​​​​​Uskomme, että löydämme Sinulle sopivan ratkaisun!</p>
                         </Col>
                       </div>
@@ -144,7 +156,7 @@ class Home extends Component {
               <Row>
                 <div className="pargcontent">
                   <Col md={12}>
-                    <h3 className="text-center">KYSY LISÄTIETOJA MEILTÄ! <Button bsStyle="success" bsSize="large">
+                    <h3 className="text-center">KYSY LISÄTIETOJA MEILTÄ! <Button href="/ota-yhteytta" bsStyle="success" bsSize="large">
                       YHTEYDENOTTO
                     </Button></h3>
                   </Col>
